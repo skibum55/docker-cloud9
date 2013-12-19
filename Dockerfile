@@ -12,5 +12,5 @@ RUN cd /cloud9 && npm install
 
 VOLUME ["/workspace"]
 
-EXPOSE 3131
+EXPOSE 3131,5858
 CMD ["/cloud9/bin/cloud9.sh", "-l", "0.0.0.0", "-w", "/workspace"]
